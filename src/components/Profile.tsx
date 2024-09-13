@@ -13,7 +13,7 @@ export default function Profile() {
               <Image
                 src="/assets/aastha_pic.webp"
                 alt="Aastha Chauhan"
-                className="rounded-full w-48 h-48 object-cover mb-4 border border-orange"
+                className="rounded-full w-48 h-48 object-cover mb-4 border-4 border-orange"
                 width={192}
                 height={192}
               />
