@@ -6,6 +6,7 @@ import Achievements from '@/components/Achievements'
 import Footer from '@/components/Footer'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import Experience from '@/components/Experience'
+import Volunteer from '@/components/Volunteer'
 
 export const metadata: Metadata = {
   title: 'Aastha Chauhan - Research Portfolio',
@@ -35,6 +36,11 @@ export default function Home() {
         <section className="bg-gray-50 py-12">
           <MaxWidthWrapper>
             <Achievements />
+          </MaxWidthWrapper>
+        </section>
+        <section className="py-12">
+          <MaxWidthWrapper>
+            <Volunteer />
           </MaxWidthWrapper>
         </section>
       </main>

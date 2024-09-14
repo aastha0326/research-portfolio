@@ -37,6 +37,11 @@ export default function Header() {
                 Achievements
               </Link>
             </li>
+            <li>
+              <Link href="#volunteer-experience" className="hover:text-orange">
+                Volunteer
+              </Link>
+            </li>
           </ul>
         </nav>
         <div className="md:hidden">
@@ -82,6 +87,11 @@ export default function Header() {
             <li>
               <Link href="#achievements" className="hover:text-orange">
                 Achievements
+              </Link>
+            </li>
+            <li>
+              <Link href="#volunteer-experience" className="hover:text-orange">
+                Volunteer
               </Link>
             </li>
           </ul>

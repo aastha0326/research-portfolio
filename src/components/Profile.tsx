@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Github, StickyNote } from "lucide-react";
 import Image from "next/image";
 
 export default function Profile() {
@@ -13,7 +13,7 @@ export default function Profile() {
               <Image
                 src="/assets/aastha_pic.webp"
                 alt="Aastha Chauhan"
-                className="rounded-full w-48 h-48 object-cover mb-4 border-4 border-orange"
+                className="rounded-full w-48 h-48 object-cover mb-4 border border-orange "
                 width={192}
                 height={192}
               />
@@ -21,9 +21,11 @@ export default function Profile() {
                 Aastha Chauhan
               </h1>
               <p className="text-center text-muted-foreground mb-4">
-                Expert in Paper Airplane Aerodynamics
+                Sofware Engineer at Salesforce
               </p>
-              <p className="text-center mb-4">Dunder Mifflin Paper Company</p>
+              <p className="text-center mb-4">
+                Research Assistant at University of Massachusetts Lowell
+              </p>
               <div className="mt-6 flex flex-wrap gap-4 max-w-xl">
                 <Button
                   onClick={() =>
@@ -39,7 +41,7 @@ export default function Profile() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Mail className="mr-2 h-4 w-4" /> Email
+                    <Mail className="h-4 w-4" />
                   </a>
                 </Button>
                 <Button
@@ -53,7 +55,7 @@ export default function Profile() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
+                    <Linkedin className="h-4 w-4" />
                   </a>
                 </Button>
                 <Button
@@ -62,8 +64,22 @@ export default function Profile() {
                   size="sm"
                   asChild
                 >
+                  <a
+                    href="https://github.com/aastha0326"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github className="h-4 w-4" />
+                  </a>
+                </Button>
+                <Button
+                  variant="outline"
+                  className="border border-orange mr-1"
+                  size="sm"
+                  asChild
+                >
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="mr-2 h-4 w-4" /> Resume
+                    <StickyNote className="h-4 w-4" />
                   </a>
                 </Button>
               </div>
@@ -71,34 +87,63 @@ export default function Profile() {
             <div className="md:w-2/3">
               <h2 className="text-4xl font-bold mb-4">About me</h2>
               <p className="mb-4 text-lg font-medium">
-                I am Aastha Chauhan, the world&apos;s foremost expert on the
-                aerodynamic properties of paper airplanes. It&apos;s a field
-                that&apos;s been sorely neglected, if you ask me. But I&apos;m
-                here to change that. I&apos;ve spent countless hours in my lab,
-                crafting the perfect paper airplane. From the type of paper to
-                the folding technique, I&apos;ve got it all figured out. My
-                research has led to groundbreaking discoveries, like the
-                revolutionary &apos;Scott Fold&apos; and the &apos;Michael
-                Missile.&apos;
+                I am a passionate researcher and software engineer with a love
+                for solving real-world problems through technology. Currently, I
+                work at Salesforce and collaborate with esteemed research labs,
+                including those led by Prof. Lewis Tseng at the{" "}
+                <a
+                  href="https://www.uml.edu/engineering/electrical-computer/faculty/tseng-lewis.aspx"
+                  className="text-orange"
+                >
+                  University of Massachusetts Lowell USA
+                </a>
+                , Prof.{" "}
+                <a href="https://abhilash-jindal.com/" className="text-orange">
+                  Abhilash Jindal
+                </a>{" "}
+                at{" "}
+                <a href="https://home.iitd.ac.in/" className="text-orange">
+                  IIT Delhi
+                </a>
+                , Prof.{" "}
+                <a
+                  href="https://www.iitbhilai.ac.in/index.php?pid=subhajit"
+                  className="text-orange"
+                >
+                  Subhajit Sidhanta
+                </a>{" "}
+                at
+                <a href="https://www.iitkgp.ac.in/" className="text-orange">
+                  {" "}
+                  IIT Kharagpur
+                </a>
+                , and Prof.{" "}
+                <a
+                  href="https://www.iitbhilai.ac.in/index.php?pid=dhiman"
+                  className="text-orange"
+                >
+                  Dhiman Saha
+                </a>{" "}
+                at{" "}
+                <a href="https://www.iitbhilai.ac.in/" className="text-orange">
+                  IIT Bhilai
+                </a>
+                . My areas of interest include software engineering, systems,
+                machine learning, federated learning, video analytics, and
+                security, all driven by curiosity and a desire to create impact.
               </p>
               <p className="mb-4 text-lg font-medium">
-                I&apos;m passionate about sharing my knowledge with the world.
-                So whether you&apos;re a seasoned paper airplane enthusiast or
-                just looking for a fun way to pass the time, I invite you to
-                join me on my incredible journey of paper airplane research.
+                I have been awarded the Google Women Engineers Scholarship.
+                Additionally, I was selected as a Google Summer of Code student
+                and received the Dan-Kohn Scholarship by Linux Foundation for my
+                contributions to open-source software.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                <div>
-                  <h3 className="text-xl font-bold mb-4">Interests</h3>
-                  <ul className="list-disc list-inside space-y-2">
-                    <li>Paper Airplane Design</li>
-                    <li>Aerodynamics</li>
-                    <li>Office Management</li>
-                    <li>Improvisational Comedy</li>
-                    <li>Team Building</li>
-                  </ul>
-                </div>
-              </div>
+              <p className="mb-4 text-lg font-medium">
+                Outside of work, I enjoy mentoring individuals and leading
+                initiatives focused on empowering women in technology. With a
+                deep passion for learning and advancing technology, I am excited
+                for the opportunities and challenges that lie ahead.
+              </p>
             </div>
           </div>
         </div>

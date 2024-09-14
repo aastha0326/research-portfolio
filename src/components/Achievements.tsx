@@ -1,5 +1,5 @@
-"use client"
-import { Award, Calendar, Users, Code, Book } from "lucide-react"
+"use client";
+import { Award, Calendar, Users, Code, Book } from "lucide-react";
 
 const achievements = [
   {
@@ -24,6 +24,8 @@ const achievements = [
   {
     icon: <Award className="w-6 h-6 text-yellow-500" />,
     title: "9th Amir Fatima UG Scholarship Award",
+    description:
+      "For academic excellence & exceptional extracurricular contributions",
     date: "December, 2022",
   },
   {
@@ -52,11 +54,11 @@ const achievements = [
     description: "Team ranked 208th in Kanpur regionals",
     date: "August, 2021",
   },
-]
+];
 
 export default function Achievements() {
   return (
-    <section id="achievements" className="py-12">
+    <section id="achievements">
       <h2 className="text-3xl font-bold mb-6">Achievements</h2>
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8">
@@ -68,10 +70,14 @@ export default function Achievements() {
               <div className="achievement-content pb-8">
                 <h3 className="text-xl font-semibold">{achievement.title}</h3>
                 {achievement.organization && (
-                  <p className="text-sm text-muted-foreground">{achievement.organization}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {achievement.organization}
+                  </p>
                 )}
                 {achievement.description && (
-                  <p className="mt-2 text-muted-foreground">{achievement.description}</p>
+                  <p className="mt-2 text-muted-foreground">
+                    {achievement.description}
+                  </p>
                 )}
                 <div className="flex items-center mt-2 text-sm text-muted-foreground">
                   <Calendar className="w-4 h-4 mr-1" />
@@ -87,7 +93,7 @@ export default function Achievements() {
           position: relative;
         }
         .achievement-item::before {
-          content: '';
+          content: "";
           position: absolute;
           left: 12px;
           top: 24px;
@@ -103,5 +109,5 @@ export default function Achievements() {
         }
       `}</style>
     </section>
-  )
+  );
 }
