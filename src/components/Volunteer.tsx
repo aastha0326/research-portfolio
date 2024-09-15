@@ -7,7 +7,7 @@ import { Mail, Linkedin, Github, StickyNote, Lightbulb } from "lucide-react";
 const volunteerExperiences = [
   {
     organization: "Scaler By InterviewBit",
-    role: "Data Structures & Algorithms intern, Teaching Assistant",
+    role: "Data Structures & Algorithms, Teaching Assistant",
     startDate: "August 2022",
     endDate: "August 2023",
   },

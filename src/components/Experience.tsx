@@ -33,9 +33,7 @@ export default function Experience() {
                 <h3 className="text-xl font-semibold">
                   University of Massachusetts Lowell
                 </h3>
-                <p className="text-sm text-muted-foreground">
-                  Remote Research Intern
-                </p>
+                <p className="text-sm text-muted-foreground">Research Assistant</p>
               </div>
               <Badge>April 2024 - Present</Badge>
             </CardTitle>
@@ -86,7 +84,7 @@ export default function Experience() {
                   Edge Lab, Indian Institute of Technology Kharagpur
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Remote Research Assistant
+                  Research Assistant
                 </p>
               </div>
               <Badge>Oct 2023 - June 2024</Badge>
@@ -117,7 +115,7 @@ export default function Experience() {
             <p>
               Analyzed and benchmarked the NIST Lightweight Cryptography
               finalist&apos;s PDF encryption runtime against the current PDF
-              encryption standard (AES). Preprint available here.
+              encryption standard (AES).
             </p>
           </CardContent>
         </Card>

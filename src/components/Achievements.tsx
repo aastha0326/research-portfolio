@@ -12,7 +12,7 @@ const achievements = [
     icon: <Users className="w-6 h-6 text-blue-500" />,
     title: "Google Women Engineers Program Scholar",
     organization: "TalentSprint",
-    description: "Selected as top 200 out of 37,000 applicants",
+    description: "Selected as top 50 out of 37,000 applicants",
     date: "April, 2021",
   },
   {

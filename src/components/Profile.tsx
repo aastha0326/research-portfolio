@@ -28,8 +28,8 @@ export default function Profile() {
                   Salesforce
                 </a>
               </p>
-              <p className="text-center mb-4">
-                Research Assistant at{" "}
+              <p className="text-center text-muted-foreground mb-4">
+                Research Assistant at <br />
                 <a
                   href="https://www.uml.edu/"
                   className="text-orange"

@@ -8,16 +8,16 @@ const publications = [
     url: "#",
   },
   {
-    title: "AI Agents as Software Testers",
-    authors: "Aastha Chauhan and Dhruv Kumar",
-    journal: "Under review at a conference",
-    url: "#",
-  },
-  {
     title: "Harnessing Lightweight Ciphers for PDF Encryption",
     authors: "Aastha Chauhan, Deepa Verma",
     journal: "Preprint available here",
     url: "https://drive.google.com/file/d/1d3tduNIb2pzxB11uUaY6bhEZeMgxWxqM/view",
+  },
+  {
+    title: "AI Agents as Software Testers",
+    authors: "Aastha Chauhan and Dhruv Kumar",
+    journal: "Under review at a conference",
+    url: "#",
   },
   {
     title:
@@ -42,7 +42,7 @@ export default function Publications() {
               <p className="text-sm text-muted-foreground mb-2">
                 {pub.authors}
               </p>
-              {index === 2 ? (
+              {index === 1 ? (
                 <a
                   href={pub.url}
                   target="_blank"
