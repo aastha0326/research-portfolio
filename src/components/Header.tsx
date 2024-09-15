@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { ModeToggle } from "./ui/toggle";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,43 +17,46 @@ export default function Header() {
           Aastha Chauhan
         </Link>
         <nav className="hidden md:block">
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 items-center">
             <li>
-              <Link href="#about" className="hover:text-orange">
+              <Link href="#about" className="hover:text-lav hover:dark:text-highlight">
                 About
               </Link>
             </li>
             <li>
-              <Link href="#experience" className="hover:text-orange">
+              <Link href="#experience" className="hover:text-lav hover:dark:text-highlight">
                 Experience
               </Link>
             </li>
             <li>
-              <Link href="#publications" className="hover:text-orange">
+              <Link href="#publications" className="hover:text-lav hover:dark:text-highlight">
                 Publications
               </Link>
             </li>
             <li>
-              <Link href="#achievements" className="hover:text-orange">
+              <Link href="#achievements" className="hover:text-lav hover:dark:text-highlight">
                 Achievements
               </Link>
             </li>
             <li>
-              <Link href="#volunteer-experience" className="hover:text-orange">
+              <Link href="#volunteer-experience" className="hover:text-lav hover:dark:text-highlight">
                 Volunteer
               </Link>
             </li>
             <li>
-              <Link href="#volunteer-experience" className="hover:text-orange">
+              <Link href="#volunteer-experience" className="hover:text-lav hover:dark:text-highlight">
                 Contact
               </Link>
+            </li>
+            <li>
+              <ModeToggle />
             </li>
           </ul>
         </nav>
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-gray-800 focus:outline-none"
+            className="text-gray-800 dark:text-white focus:outline-none"
           >
             <svg
               className="w-6 h-6"
@@ -72,35 +76,35 @@ export default function Header() {
         </div>
       </div>
       {isMenuOpen && (
-        <nav className="md:hidden bg-white border-t">
+        <nav className="md:hidden bg-white dark:bg-gray-800 border-t">
           <ul className="flex flex-col space-y-2 p-4">
             <li>
-              <Link href="#about" className="hover:text-orange">
+              <Link href="#about" className="hover:text-lav hover:dark:text-highlight">
                 About
               </Link>
             </li>
             <li>
-              <Link href="#experience" className="hover:text-orange">
+              <Link href="#experience" className="hover:text-lav hover:dark:text-highlight">
                 Experience
               </Link>
             </li>
             <li>
-              <Link href="#publications" className="hover:text-orange">
+              <Link href="#publications" className="hover:text-lav hover:dark:text-highlight">
                 Publications
               </Link>
             </li>
             <li>
-              <Link href="#achievements" className="hover:text-orange">
+              <Link href="#achievements" className="hover:text-lav hover:dark:text-highlight">
                 Achievements
               </Link>
             </li>
             <li>
-              <Link href="#volunteer-experience" className="hover:text-orange">
+              <Link href="#volunteer-experience" className="hover:text-lav hover:dark:text-highlight">
                 Volunteer
               </Link>
             </li>
             <li>
-              <Link href="#volunteer-experience" className="hover:text-orange">
+              <Link href="#volunteer-experience" className="hover:text-lav hover:dark:text-highlight">
                 Contact
               </Link>
             </li>

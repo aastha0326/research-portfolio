@@ -15,30 +15,30 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen text-foreground">
+    <div className="min-h-screen text-foreground dark:bg-gray-900 dark:text-white">
       <Header />
       <main>
-        <section className="py-12">
+        <section className="py-12 dark:bg-gray-900">
           <MaxWidthWrapper>
             <Profile />
           </MaxWidthWrapper>
         </section>
-        <section className="bg-gray-50 py-12">
+        <section className="bg-gray-50 py-12 dark:bg-gray-800">
           <MaxWidthWrapper>
             <Experience />
           </MaxWidthWrapper>
         </section>
-        <section className="py-12">
+        <section className="py-12 dark:bg-gray-900">
           <MaxWidthWrapper>
             <Publications />
           </MaxWidthWrapper>
         </section>
-        <section className="bg-gray-50 py-12">
+        <section className="bg-gray-50 py-12 dark:bg-gray-800">
           <MaxWidthWrapper>
             <Achievements />
           </MaxWidthWrapper>
         </section>
-        <section className="pt-12">
+        <section className="pt-12 dark:bg-gray-900">
           <MaxWidthWrapper>
             <Volunteer />
           </MaxWidthWrapper>

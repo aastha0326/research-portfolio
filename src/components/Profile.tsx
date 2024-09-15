@@ -11,7 +11,7 @@ export default function Profile() {
               <Image
                 src="/assets/aastha_pic.webp"
                 alt="Aastha Chauhan"
-                className="rounded-full w-48 h-48 object-cover mb-4 border border-orange "
+                className="rounded-full w-48 h-48 object-cover mb-4 border border-lav dark:border-highlight"
                 width={192}
                 height={192}
               />
@@ -22,7 +22,7 @@ export default function Profile() {
                 Sofware Engineer at{" "}
                 <a
                   href="https://www.salesforce.com/in/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Salesforce
@@ -32,7 +32,7 @@ export default function Profile() {
                 Research Assistant at <br />
                 <a
                   href="https://www.uml.edu/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   University of Massachusetts Lowell
@@ -47,7 +47,7 @@ export default function Profile() {
                 work at{" "}
                 <a
                   href="https://www.salesforce.com/in/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Salesforce
@@ -56,7 +56,7 @@ export default function Profile() {
                 by Prof.{" "}
                 <a
                   href="https://www.uml.edu/engineering/electrical-computer/faculty/tseng-lewis.aspx"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Lewis Tseng
@@ -64,7 +64,7 @@ export default function Profile() {
                 at the{" "}
                 <a
                   href="https://www.uml.edu/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   University of Massachusetts Lowell, USA
@@ -72,7 +72,7 @@ export default function Profile() {
                 , Prof.{" "}
                 <a
                   href="https://abhilash-jindal.com/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Abhilash Jindal
@@ -80,7 +80,7 @@ export default function Profile() {
                 at{" "}
                 <a
                   href="https://home.iitd.ac.in/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   IIT Delhi
@@ -88,7 +88,7 @@ export default function Profile() {
                 , Prof.{" "}
                 <a
                   href="https://www.iitbhilai.ac.in/index.php?pid=subhajit"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Subhajit Sidhanta
@@ -96,7 +96,7 @@ export default function Profile() {
                 at
                 <a
                   href="https://www.iitkgp.ac.in/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   {" "}
@@ -105,7 +105,7 @@ export default function Profile() {
                 , and Prof.{" "}
                 <a
                   href="https://www.iitbhilai.ac.in/index.php?pid=dhiman"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Dhiman Saha
@@ -113,7 +113,7 @@ export default function Profile() {
                 at{" "}
                 <a
                   href="https://www.iitbhilai.ac.in/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   IIT Bhilai
@@ -126,7 +126,7 @@ export default function Profile() {
                 I have been awarded the{" "}
                 <a
                   href="https://we.talentsprint.com/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Google Women Engineers Scholarship
@@ -134,7 +134,7 @@ export default function Profile() {
                 . Additionally, I was selected as a{" "}
                 <a
                   href="https://summerofcode.withgoogle.com/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Google Summer of Code
@@ -142,7 +142,7 @@ export default function Profile() {
                 student and received the Dan-Kohn Scholarship by{" "}
                 <a
                   href="https://www.linuxfoundation.org/"
-                  className="text-orange"
+                  className="text-lav dark:text-highlight"
                   target="_blank"
                 >
                   Linux Foundation
