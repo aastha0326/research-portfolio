@@ -42,7 +42,7 @@ export default function Experience() {
           </CardHeader>
           <CardContent>
             <p>
-              Leading a research efforts on developing federated learning system
+              Leading research efforts on developing federated learning system
               for Vehicular Networks with heterogeneous computation power and
               mmWave communication.
             </p>
@@ -63,10 +63,17 @@ export default function Experience() {
           </CardHeader>
           <CardContent>
             <p>
-              Contributed to projects such as <a href="https://abhilash-jindal.com/assets/popper" className="text-orange">Popper</a>, and developing a Visual
-              Data Analytics System that optimizes queries for processing video
-              data, specifically targeting license plate recognition in
-              real-time.
+              Contributed to projects such as{" "}
+              <a
+                href="https://abhilash-jindal.com/assets/popper"
+                className="text-orange"
+                target="_blank"
+              >
+                Popper
+              </a>
+              , and developing a Visual Data Analytics System that optimizes
+              queries for processing video data, specifically targeting license
+              plate recognition in real-time.
             </p>
           </CardContent>
         </Card>
@@ -139,8 +146,8 @@ export default function Experience() {
               >
                 Comparator Activity
               </a>
-              , aimed at training children to understand the use of different math
-              symbols.
+              , aimed at training children to understand the use of different
+              math symbols.
             </p>
           </CardContent>
         </Card>
