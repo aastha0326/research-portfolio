@@ -54,7 +54,7 @@ export default function Volunteer() {
         <div className="mt-6 flex flex-wrap gap-4 max-w-xl">
           <Button
             onClick={() => window.open("mailto:aastha.chauhan01@gmail.com")}
-            className="border border-orange"
+            className="border border-lav dark:border-highlight"
             variant="outline"
             size="sm"
             asChild
@@ -69,7 +69,7 @@ export default function Volunteer() {
           </Button>
           <Button
             variant="outline"
-            className="border border-orange"
+            className="border border-lav dark:border-highlight"
             size="sm"
             asChild
           >
@@ -83,7 +83,7 @@ export default function Volunteer() {
           </Button>
           <Button
             variant="outline"
-            className="border border-orange"
+            className="border border-lav dark:border-highlight"
             size="sm"
             asChild
           >
@@ -97,7 +97,7 @@ export default function Volunteer() {
           </Button>
           <Button
             variant="outline"
-            className="border border-orange mr-1"
+            className="border border-lav dark:border-highlight mr-1"
             size="sm"
             asChild
           >
@@ -111,7 +111,7 @@ export default function Volunteer() {
           </Button>
         </div>
         <div className="mt-5 flex items-center">
-          <Lightbulb className="h-4 w-4 text-orange" />
+          <Lightbulb className="h-4 w-4 text-lav dark:text-highlight" />
           <p className="text-sm">The best way to reach me is via email</p>
         </div>
       </div>

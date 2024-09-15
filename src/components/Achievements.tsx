@@ -63,7 +63,10 @@ export default function Achievements() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8">
           {achievements.map((achievement, index) => (
-            <div key={index} className="achievement-item relative pl-8">
+            <div
+              key={index}
+              className="achievement-item relative pl-8 before:content-[''] before:absolute before:left-3 before:top-6 before:bottom-0 before:w-[1px] before:bg-[#750270] dark:before:bg-[#2698ba]"
+            >
               <div className="achievement-icon absolute left-0 top-0">
                 {achievement.icon}
               </div>
@@ -91,15 +94,6 @@ export default function Achievements() {
       <style jsx>{`
         .achievement-item {
           position: relative;
-        }
-        .achievement-item::before {
-          content: "";
-          position: absolute;
-          left: 12px;
-          top: 24px;
-          bottom: 0;
-          width: 1px;
-          background: orange;
         }
         .achievement-icon {
           background: white;

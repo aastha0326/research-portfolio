@@ -50,8 +50,8 @@ const config: Config = {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
-        wheat: "#FFFCF2",
-        orange: "#EB5E28",
+        lav: "#750270",
+        highlight: "#2698ba",
       },
       borderRadius: {
         lg: "var(--radius)",

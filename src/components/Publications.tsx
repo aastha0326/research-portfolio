@@ -47,7 +47,7 @@ export default function Publications() {
                   href={pub.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-orange text-sm mb-2"
+                  className="text-lav dark:text-highlight text-sm mb-2"
                 >
                   {pub.journal}
                 </a>

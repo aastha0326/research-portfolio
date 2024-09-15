@@ -33,7 +33,9 @@ export default function Experience() {
                 <h3 className="text-xl font-semibold">
                   University of Massachusetts Lowell
                 </h3>
-                <p className="text-sm text-muted-foreground">Research Assistant</p>
+                <p className="text-sm text-muted-foreground">
+                  Research Assistant
+                </p>
               </div>
               <Badge>April 2024 - Present</Badge>
             </CardTitle>
@@ -64,7 +66,7 @@ export default function Experience() {
               Contributed to projects such as{" "}
               <a
                 href="https://abhilash-jindal.com/assets/popper"
-                className="text-orange"
+                className="text-lav dark:text-highlight"
                 target="_blank"
               >
                 Popper
@@ -140,7 +142,7 @@ export default function Experience() {
               <a
                 href="https://www.gcompris.net/screenshots-en.html#comparator"
                 target="_blank"
-                className="text-orange"
+                className="text-lav dark:text-highlight"
               >
                 Comparator Activity
               </a>
