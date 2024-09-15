@@ -1,6 +1,4 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Github, StickyNote } from "lucide-react";
 import Image from "next/image";
 
 export default function Profile() {
@@ -21,99 +19,86 @@ export default function Profile() {
                 Aastha Chauhan
               </h1>
               <p className="text-center text-muted-foreground mb-4">
-                Sofware Engineer at Salesforce
+                Sofware Engineer at{" "}
+                <a
+                  href="https://www.salesforce.com/in/"
+                  className="text-orange"
+                  target="_blank"
+                >
+                  Salesforce
+                </a>
               </p>
-              <p className="text-center mb-4">
-                Research Assistant at University of Massachusetts Lowell
+              <p className="text-center text-muted-foreground mb-4">
+                Research Assistant at <br />
+                <a
+                  href="https://www.uml.edu/"
+                  className="text-orange"
+                  target="_blank"
+                >
+                  University of Massachusetts Lowell
+                </a>
               </p>
-              <div className="mt-6 flex flex-wrap gap-4 max-w-xl">
-                <Button
-                  onClick={() =>
-                    window.open("mailto:aastha.chauhan01@gmail.com")
-                  }
-                  className="border border-orange"
-                  variant="outline"
-                  size="sm"
-                  asChild
-                >
-                  <a
-                    href="aastha.chauhan01@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Mail className="h-4 w-4" />
-                  </a>
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border border-orange"
-                  size="sm"
-                  asChild
-                >
-                  <a
-                    href="https://www.linkedin.com/in/aastha-chauhan-b095661b5/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Linkedin className="h-4 w-4" />
-                  </a>
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border border-orange"
-                  size="sm"
-                  asChild
-                >
-                  <a
-                    href="https://github.com/aastha0326"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Github className="h-4 w-4" />
-                  </a>
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border border-orange mr-1"
-                  size="sm"
-                  asChild
-                >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <StickyNote className="h-4 w-4" />
-                  </a>
-                </Button>
-              </div>
             </div>
             <div className="md:w-2/3">
               <h2 className="text-4xl font-bold mb-4">About me</h2>
               <p className="mb-4 text-lg font-medium">
                 I am a passionate researcher and software engineer with a love
                 for solving real-world problems through technology. Currently, I
-                work at Salesforce and collaborate with esteemed research labs,
-                including those led by Prof. Lewis Tseng at the{" "}
+                work at{" "}
+                <a
+                  href="https://www.salesforce.com/in/"
+                  className="text-orange"
+                  target="_blank"
+                >
+                  Salesforce
+                </a>{" "}
+                and collaborate with esteemed research labs, including those led
+                by Prof.{" "}
                 <a
                   href="https://www.uml.edu/engineering/electrical-computer/faculty/tseng-lewis.aspx"
                   className="text-orange"
+                  target="_blank"
+                >
+                  Lewis Tseng
+                </a>{" "}
+                at the{" "}
+                <a
+                  href="https://www.uml.edu/"
+                  className="text-orange"
+                  target="_blank"
                 >
                   University of Massachusetts Lowell USA
                 </a>
                 , Prof.{" "}
-                <a href="https://abhilash-jindal.com/" className="text-orange">
+                <a
+                  href="https://abhilash-jindal.com/"
+                  className="text-orange"
+                  target="_blank"
+                >
                   Abhilash Jindal
                 </a>{" "}
                 at{" "}
-                <a href="https://home.iitd.ac.in/" className="text-orange">
+                <a
+                  href="https://home.iitd.ac.in/"
+                  className="text-orange"
+                  target="_blank"
+                >
                   IIT Delhi
                 </a>
                 , Prof.{" "}
                 <a
                   href="https://www.iitbhilai.ac.in/index.php?pid=subhajit"
                   className="text-orange"
+                  target="_blank"
                 >
                   Subhajit Sidhanta
                 </a>{" "}
                 at
-                <a href="https://www.iitkgp.ac.in/" className="text-orange">
+                <a
+                  href="https://www.iitkgp.ac.in/"
+                  className="text-orange"
+                  target="_blank"
+                >
                   {" "}
                   IIT Kharagpur
                 </a>
@@ -121,11 +106,16 @@ export default function Profile() {
                 <a
                   href="https://www.iitbhilai.ac.in/index.php?pid=dhiman"
                   className="text-orange"
+                  target="_blank"
                 >
                   Dhiman Saha
                 </a>{" "}
                 at{" "}
-                <a href="https://www.iitbhilai.ac.in/" className="text-orange">
+                <a
+                  href="https://www.iitbhilai.ac.in/"
+                  className="text-orange"
+                  target="_blank"
+                >
                   IIT Bhilai
                 </a>
                 . My areas of interest include software engineering, systems,
@@ -133,10 +123,31 @@ export default function Profile() {
                 security, all driven by curiosity and a desire to create impact.
               </p>
               <p className="mb-4 text-lg font-medium">
-                I have been awarded the Google Women Engineers Scholarship.
-                Additionally, I was selected as a Google Summer of Code student
-                and received the Dan-Kohn Scholarship by Linux Foundation for my
-                contributions to open-source software.
+                I have been awarded the{" "}
+                <a
+                  href="https://we.talentsprint.com/"
+                  className="text-orange"
+                  target="_blank"
+                >
+                  Google Women Engineers Scholarship
+                </a>
+                . Additionally, I was selected as a{" "}
+                <a
+                  href="https://summerofcode.withgoogle.com/"
+                  className="text-orange"
+                  target="_blank"
+                >
+                  Google Summer of Code
+                </a>{" "}
+                student and received the Dan-Kohn Scholarship by{" "}
+                <a
+                  href="https://www.linuxfoundation.org/"
+                  className="text-orange"
+                  target="_blank"
+                >
+                  Linux Foundation
+                </a>{" "}
+                for my contributions to open-source softwares.
               </p>
               <p className="mb-4 text-lg font-medium">
                 Outside of work, I enjoy mentoring individuals and leading

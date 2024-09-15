@@ -33,16 +33,14 @@ export default function Experience() {
                 <h3 className="text-xl font-semibold">
                   University of Massachusetts Lowell
                 </h3>
-                <p className="text-sm text-muted-foreground">
-                  Remote Research Intern
-                </p>
+                <p className="text-sm text-muted-foreground">Research Assistant</p>
               </div>
               <Badge>April 2024 - Present</Badge>
             </CardTitle>
           </CardHeader>
           <CardContent>
             <p>
-              Leading a research efforts on developing federated learning system
+              Leading research efforts on developing federated learning system
               for Vehicular Networks with heterogeneous computation power and
               mmWave communication.
             </p>
@@ -63,10 +61,17 @@ export default function Experience() {
           </CardHeader>
           <CardContent>
             <p>
-              Contributed to projects such as <a href="https://abhilash-jindal.com/assets/popper" className="text-orange">Popper</a>, and developing a Visual
-              Data Analytics System that optimizes queries for processing video
-              data, specifically targeting license plate recognition in
-              real-time.
+              Contributed to projects such as{" "}
+              <a
+                href="https://abhilash-jindal.com/assets/popper"
+                className="text-orange"
+                target="_blank"
+              >
+                Popper
+              </a>
+              , and developing a Visual Data Analytics System that optimizes
+              queries for processing video data, specifically targeting license
+              plate recognition in real-time.
             </p>
           </CardContent>
         </Card>
@@ -79,7 +84,7 @@ export default function Experience() {
                   Edge Lab, Indian Institute of Technology Kharagpur
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Remote Research Assistant
+                  Research Assistant
                 </p>
               </div>
               <Badge>Oct 2023 - June 2024</Badge>
@@ -110,7 +115,7 @@ export default function Experience() {
             <p>
               Analyzed and benchmarked the NIST Lightweight Cryptography
               finalist&apos;s PDF encryption runtime against the current PDF
-              encryption standard (AES). Preprint available here.
+              encryption standard (AES).
             </p>
           </CardContent>
         </Card>
@@ -139,8 +144,8 @@ export default function Experience() {
               >
                 Comparator Activity
               </a>
-              , aimed at training children to understand the use of different math
-              symbols.
+              , aimed at training children to understand the use of different
+              math symbols.
             </p>
           </CardContent>
         </Card>

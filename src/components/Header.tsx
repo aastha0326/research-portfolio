@@ -42,6 +42,11 @@ export default function Header() {
                 Volunteer
               </Link>
             </li>
+            <li>
+              <Link href="#volunteer-experience" className="hover:text-orange">
+                Contact
+              </Link>
+            </li>
           </ul>
         </nav>
         <div className="md:hidden">
@@ -92,6 +97,11 @@ export default function Header() {
             <li>
               <Link href="#volunteer-experience" className="hover:text-orange">
                 Volunteer
+              </Link>
+            </li>
+            <li>
+              <Link href="#volunteer-experience" className="hover:text-orange">
+                Contact
               </Link>
             </li>
           </ul>

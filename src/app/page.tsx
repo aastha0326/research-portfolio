@@ -38,7 +38,7 @@ export default function Home() {
             <Achievements />
           </MaxWidthWrapper>
         </section>
-        <section className="py-12">
+        <section className="pt-12">
           <MaxWidthWrapper>
             <Volunteer />
           </MaxWidthWrapper>
